@@ -46,10 +46,11 @@ class MainActivity : ComponentActivity() {
          color = Color.Red,
          modifier = Modifier.background(Color.Yellow)
              .clickable {  }
-             .size(200.dp)
+             .size(250.dp)
              .border(4.dp, Color.Black)
              .clip(CircleShape)
              .background(Color.Gray)
+
 
 
      )
